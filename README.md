@@ -1,3 +1,5 @@
 # BMWi8_Projekt_Kinderauto
+_in progress_ 
 
-- in progress -
+*hinzugefügt:*
+- IR Modul auslesen 
