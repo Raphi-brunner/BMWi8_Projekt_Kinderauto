@@ -1,32 +1,20 @@
 /*
-IR-Empfangsmodul Ausleseprogramm für ESP32 S3
+Main für das Kinderauto BMW i8 Projekt
 */
 
 #include <Arduino.h>
-#include <IRremote.hpp>
+#include "IRHandler.h"
 
-#define IR_RECEIVE_PIN 21  // Anpassen an den tatsächlichen GPIO des IR-Empfängers
+
+IRHandler ir(21); // 21 = Pin für IR-Empfang
 
 void setup() {
-  Serial.begin(112500);  // UART0 
-  IrReceiver.begin(IR_RECEIVE_PIN, ENABLE_LED_FEEDBACK);
-  Serial.println("IR-Empfänger gestartet...");
+  Serial.begin(115200);  
+  ir.begin();
 }
 
 void loop() {
-  if (IrReceiver.decode()) {
-    uint32_t code = IrReceiver.decodedIRData.decodedRawData;
+  ir.receive(); // IR-Signale empfangen und ausgeben aktuell: Konsole
 
-    Serial.print("HEX-Code: 0x");
-    Serial.println(code, HEX);
-
-    /* 
-    //Beispiel für spezifische Codes
-    if (code == 0xFA053000) {
-      Serial.println("Hallo");
-    }
-    */
-
-    IrReceiver.resume();  // Nächsten Code empfangen
-  }
 }
+  
