@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=3V3 Pin=R1-2
+Change Component Comment : Designator=R1 Old Comment=51k New Comment=RMCF0603FT51K0
+Add Pin To Net: Unknown Pin: Pin Coil-0
+Add Pin To Net: Unknown Pin: Pin L1-0
+Add Pin To Net: Unknown Pin: Pin LB1-0

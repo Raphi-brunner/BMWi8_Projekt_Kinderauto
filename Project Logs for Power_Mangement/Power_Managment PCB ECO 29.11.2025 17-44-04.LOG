@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=Echo 1 Pin=J1-3
+Removed Pin From Net: NetName=DGND Pin=J1-4
+Removed Pin From Net: NetName=5V Pin=J2-1
+Removed Pin From Net: NetName=Trigger Pin=J2-2
+Removed Pin From Net: NetName=Echo 2 Pin=J2-3
+Removed Pin From Net: NetName=DGND Pin=J2-4
+Removed Pin From Net: NetName=Echo 3 Pin=J3-3
+Removed Pin From Net: NetName=DGND Pin=J3-4
+Removed Pin From Net: NetName=5V Pin=J4-1
+Removed Pin From Net: NetName=Trigger Pin=J4-2
+Removed Pin From Net: NetName=Echo 4 Pin=J4-3
+Removed Pin From Net: NetName=DGND Pin=J4-4
+Removed Pin From Net: NetName=Echo 5 Pin=J5-3
+Removed Pin From Net: NetName=DGND Pin=J5-4
+Removed Pin From Net: NetName=5V Pin=J6-1
+Removed Pin From Net: NetName=Trigger Pin=J6-2
+Removed Pin From Net: NetName=Echo 6 Pin=J6-3
+Removed Pin From Net: NetName=DGND Pin=J6-4
+Removed Member From Class: ClassName=Sensors Member=P?
+Removed Member From Class: ClassName=Sensors Member=R100
+Removed Member From Class: ClassName=Esp32-S3-Mainboard Member=R200
+Change Component Footprint: Designator=J1 Old Footprint=USB_TYPB New Footprint=SIP-2
+Change Component Footprint: Designator=J2 Old Footprint=USB_TYPB New Footprint=SIP-2
+Change Component Footprint: Designator=J3 Old Footprint=USB_TYPB New Footprint=SIP-2
+Change Component Footprint: Designator=J4 Old Footprint=USB_TYPB New Footprint=SIP-2
+Change Component Footprint: Designator=J5 Old Footprint=USB_TYPB New Footprint=SIP-2
+Change Component Footprint: Designator=J6 Old Footprint=USB_TYPB New Footprint=SIP-2
+Change Component Comment : Designator=J1 Old Comment=CON4 New Comment=CON2
+Change Component Comment : Designator=J2 Old Comment=CON4 New Comment=CON2
+Change Component Comment : Designator=J3 Old Comment=CON4 New Comment=CON2
+Change Component Comment : Designator=J4 Old Comment=CON4 New Comment=CON2
+Change Component Comment : Designator=J5 Old Comment=CON4 New Comment=CON2
+Change Component Comment : Designator=J6 Old Comment=CON4 New Comment=CON2
+Added Component: Designator=J7(SIP-2)
+Added Component: Designator=J8(SIP-2)
+Added Component: Designator=J9(SIP-2)
+Added Component: Designator=J10(SIP-2)
+Added Component: Designator=J11(SIP-2)
+Added Component: Designator=J12(SIP-2)
+Added Pin To Net: NetName=Echo 1 Pin=J2-1
+Added Pin To Net: NetName=DGND Pin=J2-2
+Added Pin To Net: NetName=Echo 2 Pin=J4-1
+Added Pin To Net: NetName=DGND Pin=J4-2
+Added Pin To Net: NetName=Echo 3 Pin=J6-1
+Added Pin To Net: NetName=DGND Pin=J6-2
+Added Pin To Net: NetName=5V Pin=J7-1
+Added Pin To Net: NetName=Trigger Pin=J7-2
+Added Pin To Net: NetName=Echo 4 Pin=J8-1
+Added Pin To Net: NetName=DGND Pin=J8-2
+Added Pin To Net: NetName=5V Pin=J9-1
+Added Pin To Net: NetName=Trigger Pin=J9-2
+Added Pin To Net: NetName=Echo 5 Pin=J10-1
+Added Pin To Net: NetName=DGND Pin=J10-2
+Added Pin To Net: NetName=5V Pin=J11-1
+Added Pin To Net: NetName=Trigger Pin=J11-2
+Added Pin To Net: NetName=Echo 6 Pin=J12-1
+Added Pin To Net: NetName=DGND Pin=J12-2
+Added Member To Class: ClassName=Sensors Member=Component J7 CON2
+Added Member To Class: ClassName=Sensors Member=Component J8 CON2
+Added Member To Class: ClassName=Sensors Member=Component J9 CON2
+Added Member To Class: ClassName=Sensors Member=Component J10 CON2
+Added Member To Class: ClassName=Sensors Member=Component J11 CON2
+Added Member To Class: ClassName=Sensors Member=Component J12 CON2
+Added Member To Class: ClassName=Sensors Member=Component R21 Resistor 10k +/-1% 0603 100 mW
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component R22 Resistor 10k +/-1% 0603 100 mW

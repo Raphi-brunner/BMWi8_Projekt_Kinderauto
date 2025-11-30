@@ -1,0 +1,25 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R15
+Add Component: Footprint Not Found SOT583_MP2338_MNP
+Add Component: Footprint Not Found SOT583_MP2338_MNP
+Add Pin To Net: Unknown Pin: Pin L1-0
+Add Pin To Net: Unknown Pin: Pin L2-0
+Add Pin To Net: Unknown Pin: Pin L3-0
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-5
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U2-7
+Add Pin To Net: Unknown Pin: Pin U2-8
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin U3-8
+Added Member To Class: ClassName=Power_Management Member=Component R15 Resistor 100k +/-1% 0603 100 mW
+Add Class Member: Failed to add class member : Component U2 MP2338GTL-Z
+Add Class Member: Failed to add class member : Component U3 MP2338GTL-Z

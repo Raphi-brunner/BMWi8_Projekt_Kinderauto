@@ -1,0 +1,86 @@
+Removed Pin From Net: NetName=3V3 Pin=3V3-1
+Removed Pin From Net: NetName=5V Pin=5V-1
+Removed Pin From Net: NetName=12V Pin=12V-1
+Removed Pin From Net: NetName=GND Pin=C25-1
+Removed Pin From Net: NetName=GND Pin=C26-1
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=GND Pin=C28-1
+Removed Pin From Net: NetName=GND Pin=C29-1
+Removed Pin From Net: NetName=GND Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-1
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-40
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-41
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-42
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-43
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-44
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-45
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-46
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-47
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-48
+Removed Pin From Net: NetName=GND Pin=ESP32-S3-49
+Removed Pin From Net: NetName=GND Pin=GND-1
+Removed Pin From Net: NetName=GND Pin=R19-2
+Removed Pin From Net: NetName=GND Pin=R20-1
+Removed Pin From Net: NetName=GND Pin=U4-2
+Removed Pin From Net: NetName=GND Pin=USB-C-A1_B12
+Removed Pin From Net: NetName=GND Pin=USB-C-B1_A12
+Removed Pin From Net: NetName=GND Pin=USB-C-SH1
+Removed Pin From Net: NetName=GND Pin=USB-C-SH2
+Removed Pin From Net: NetName=GND Pin=USB-C-SH3
+Removed Pin From Net: NetName=GND Pin=USB-C-SH4
+Added Component: Designator=R21(RESC1608X55X25ML10T15)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=R22(RESC1608X55X25ML10T15)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=AGND Pin=R22-2
+Added Net: Name=AGND
+Added Pin To Net: NetName=DGND Pin=C25-1
+Added Pin To Net: NetName=DGND Pin=C26-1
+Added Pin To Net: NetName=DGND Pin=C27-1
+Added Pin To Net: NetName=DGND Pin=C28-1
+Added Pin To Net: NetName=DGND Pin=C29-1
+Added Pin To Net: NetName=DGND Pin=D1-2
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-1
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-40
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-41
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-42
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-43
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-44
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-45
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-46
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-47
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-48
+Added Pin To Net: NetName=DGND Pin=ESP32-S3-49
+Added Pin To Net: NetName=DGND Pin=R19-2
+Added Pin To Net: NetName=DGND Pin=R20-1
+Added Pin To Net: NetName=DGND Pin=R21-2
+Added Pin To Net: NetName=DGND Pin=R22-1
+Added Pin To Net: NetName=DGND Pin=U4-2
+Added Pin To Net: NetName=DGND Pin=USB-C-A1_B12
+Added Pin To Net: NetName=DGND Pin=USB-C-B1_A12
+Added Pin To Net: NetName=DGND Pin=USB-C-SH1
+Added Pin To Net: NetName=DGND Pin=USB-C-SH2
+Added Pin To Net: NetName=DGND Pin=USB-C-SH3
+Added Pin To Net: NetName=DGND Pin=USB-C-SH4
+Added Net: Name=DGND
+Added Member To Class: ClassName=Power_Management Member=Component R21 Resistor 0R +/- 5% 0603 100 mW
+Added Member To Class: ClassName=Power_Management Member=Component R22 Resistor 0R +/- 5% 0603 100 mW

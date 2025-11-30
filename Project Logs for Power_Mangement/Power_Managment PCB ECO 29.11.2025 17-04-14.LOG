@@ -1,0 +1,207 @@
+Removed Member From Class: ClassName=Esp32-S3-Mainboard Member=AMS1117
+Change Component Designator: OldDesignator=R21 NewDesignator=R100
+Change Component Designator: OldDesignator=R22 NewDesignator=R200
+Change Component Designator: OldDesignator=U4 NewDesignator=U5
+Added Component: Designator=AMS1117-3.3(SOT229P700X180-4N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/AMS1117-3.3/ams/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ams AG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "AMS1117-3.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-223 Seeed Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/AMS1117-3.3/ams/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D2(EVRL-0603-2_V)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/4688/el-19-217-r6c-al1m2vy-3tpdf-187026-4688713.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 1, 01/2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "2.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Everlight Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.everlight.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Vf"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "False"; VariantName = "[No Variations]"
+Added Component: Designator=DHT11(SNR4-2.54-15.5X12.0X5.5MM)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/DHT11/UNIVERSAL-SOLDER+Electronics+Ltd/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "UNIVERSAL-SOLDER Electronics Ltd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DHT11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DHT11/UNIVERSAL-SOLDER+Electronics+Ltd/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J1(USB_TYPB)
+Added Component: Designator=J2(USB_TYPB)
+Added Component: Designator=J3(USB_TYPB)
+Added Component: Designator=J4(USB_TYPB)
+Added Component: Designator=J5(USB_TYPB)
+Added Component: Designator=J6(USB_TYPB)
+Added Component: Designator=LS1(CUI_CMI-1295IC-0385T)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CMI-1295IC-0385T/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CMI-1295IC-0385T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CMI-1295IC-0385T/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R21(RESC1608X55X25ML10T15)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=R22(RESC1608X55X25ML10T15)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=U6(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SN74LV1T34DBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-5 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U7(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SN74LV1T34DBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-5 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U8(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SN74LV1T34DBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-5 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U9(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SN74LV1T34DBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-5 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U10(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SN74LV1T34DBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-5 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U11(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SN74LV1T34DBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-5 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=AMS1117-3.3-1
+Added Pin To Net: NetName=D 3V3 Pin=AMS1117-3.3-2
+Added Pin To Net: NetName=5V Pin=AMS1117-3.3-3
+Added Pin To Net: NetName=DGND Pin=D2-2
+Added Pin To Net: NetName=5V Pin=DHT11-1
+Added Pin To Net: NetName=DGND Pin=DHT11-4
+Added Pin To Net: NetName=5V Pin=J1-1
+Added Pin To Net: NetName=DGND Pin=J1-4
+Added Pin To Net: NetName=5V Pin=J2-1
+Added Pin To Net: NetName=DGND Pin=J2-4
+Added Pin To Net: NetName=5V Pin=J3-1
+Added Pin To Net: NetName=DGND Pin=J3-4
+Added Pin To Net: NetName=5V Pin=J4-1
+Added Pin To Net: NetName=DGND Pin=J4-4
+Added Pin To Net: NetName=5V Pin=J5-1
+Added Pin To Net: NetName=DGND Pin=J5-4
+Added Pin To Net: NetName=5V Pin=J6-1
+Added Pin To Net: NetName=DGND Pin=J6-4
+Added Pin To Net: NetName=DGND Pin=LS1-N
+Added Pin To Net: NetName=IO1 Pin=R22-1
+Added Pin To Net: NetName=DGND Pin=U6-3
+Added Pin To Net: NetName=3V3 Pin=U6-5
+Added Pin To Net: NetName=DGND Pin=U7-3
+Added Pin To Net: NetName=3V3 Pin=U7-5
+Added Pin To Net: NetName=DGND Pin=U8-3
+Added Pin To Net: NetName=3V3 Pin=U8-5
+Added Pin To Net: NetName=DGND Pin=U9-3
+Added Pin To Net: NetName=3V3 Pin=U9-5
+Added Pin To Net: NetName=DGND Pin=U10-3
+Added Pin To Net: NetName=3V3 Pin=U10-5
+Added Pin To Net: NetName=DGND Pin=U11-3
+Added Pin To Net: NetName=3V3 Pin=U11-5
+Added Pin To Net: NetName=Echo 1 Pin=J1-3
+Added Pin To Net: NetName=Echo 1 Pin=U6-2
+Added Net: Name=Echo 1
+Added Pin To Net: NetName=Echo 2 Pin=J2-3
+Added Pin To Net: NetName=Echo 2 Pin=U7-2
+Added Net: Name=Echo 2
+Added Pin To Net: NetName=Echo 3 Pin=J3-3
+Added Pin To Net: NetName=Echo 3 Pin=U8-2
+Added Net: Name=Echo 3
+Added Pin To Net: NetName=Echo 4 Pin=J4-3
+Added Pin To Net: NetName=Echo 4 Pin=U9-2
+Added Net: Name=Echo 4
+Added Pin To Net: NetName=Echo 5 Pin=J5-3
+Added Pin To Net: NetName=Echo 5 Pin=U11-2
+Added Net: Name=Echo 5
+Added Pin To Net: NetName=Echo 6 Pin=J6-3
+Added Pin To Net: NetName=Echo 6 Pin=U10-2
+Added Net: Name=Echo 6
+Added Pin To Net: NetName=IO3 Pin=ESP32-S3-15
+Added Pin To Net: NetName=IO3 Pin=R21-2
+Added Net: Name=IO3
+Added Pin To Net: NetName=IO4 Pin=ESP32-S3-4
+Added Pin To Net: NetName=IO4 Pin=LS1-P
+Added Net: Name=IO4
+Added Pin To Net: NetName=IO6 Pin=ESP32-S3-6
+Added Pin To Net: NetName=IO6 Pin=U6-4
+Added Net: Name=IO6
+Added Pin To Net: NetName=IO7 Pin=ESP32-S3-7
+Added Pin To Net: NetName=IO7 Pin=U7-4
+Added Net: Name=IO7
+Added Pin To Net: NetName=IO8 Pin=ESP32-S3-12
+Added Pin To Net: NetName=IO8 Pin=U8-4
+Added Net: Name=IO8
+Added Pin To Net: NetName=IO9 Pin=ESP32-S3-17
+Added Pin To Net: NetName=IO9 Pin=U9-4
+Added Net: Name=IO9
+Added Pin To Net: NetName=IO10 Pin=ESP32-S3-18
+Added Pin To Net: NetName=IO10 Pin=U11-4
+Added Net: Name=IO10
+Added Pin To Net: NetName=IO11 Pin=ESP32-S3-19
+Added Pin To Net: NetName=IO11 Pin=U10-4
+Added Net: Name=IO11
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R22-2
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetDHT11_2 Pin=DHT11-2
+Added Pin To Net: NetName=NetDHT11_2 Pin=R21-1
+Added Net: Name=NetDHT11_2
+Added Pin To Net: NetName=Trigger Pin=ESP32-S3-5
+Added Pin To Net: NetName=Trigger Pin=J1-2
+Added Pin To Net: NetName=Trigger Pin=J2-2
+Added Pin To Net: NetName=Trigger Pin=J3-2
+Added Pin To Net: NetName=Trigger Pin=J4-2
+Added Pin To Net: NetName=Trigger Pin=J5-2
+Added Pin To Net: NetName=Trigger Pin=J6-2
+Added Net: Name=Trigger
+Added Class: Name=Sensors
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component AMS1117-3.3
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component D2 19-217/R6C-AL1M2VY/3T
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component R22 Resistor 10k +/-1% 0603 100 mW

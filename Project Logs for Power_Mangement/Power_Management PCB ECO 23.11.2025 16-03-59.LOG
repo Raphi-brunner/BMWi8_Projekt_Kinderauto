@@ -1,0 +1,148 @@
+Removed Pin From Net: NetName=3V3 Pin=R1-2
+Change Component Comment : Designator=R1 Old Comment=51k New Comment=RMCF0603FT51K0
+Add Component: Footprint Not Found SW_TS-1088-AR02016
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found LEDC3216X120N
+Add Component: Footprint Not Found LEDC3216X120N
+Add Component: Footprint Not Found LEDC3216X120N
+Add Component: Footprint Not Found LEDC3216X120N
+Add Component: Footprint Not Found SW_TS-1088-AR02016
+Add Component: Footprint Not Found 629722000214
+Add Component: Footprint Not Found RESC1608X55N
+Add Component: Footprint Not Found RESC1608X55N
+Add Component: Footprint Not Found RESC1608X55N
+Add Component: Footprint Not Found RESC1608X55N
+Add Component: Footprint Not Found RESC1608X55N
+Add Component: Footprint Not Found RESC1608X55N
+Add Component: Footprint Not Found RESC1608X55N
+Add Component: Footprint Not Found RESC1608X55N
+Added Component: Designator=Supersonic1(USB_TYPB)
+Added Component: Designator=Supersonic2(USB_TYPB)
+Added Component: Designator=Supersonic3(USB_TYPB)
+Added Component: Designator=Supersonic4(USB_TYPB)
+Added Component: Designator=Supersonic5(USB_TYPB)
+Added Component: Designator=Supersonic6(USB_TYPB)
+Add Component: Footprint Not Found XCVR_ESP32-S3-WROOM-1-N4R2
+Added Component: Designator=U102(SOT229P700X180-4N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Advanced Monolithic Systems'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "AMS1117-3.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT50P160X60-6N
+Add Pin To Net: Unknown Pin: Pin BOOT-2
+Add Pin To Net: Unknown Pin: Pin C101-1
+Add Pin To Net: Unknown Pin: Pin C101-2
+Add Pin To Net: Unknown Pin: Pin C102-1
+Add Pin To Net: Unknown Pin: Pin C102-2
+Add Pin To Net: Unknown Pin: Pin C103-2
+Add Pin To Net: Unknown Pin: Pin C104-1
+Add Pin To Net: Unknown Pin: Pin C105-1
+Add Pin To Net: Unknown Pin: Pin C105-2
+Add Pin To Net: Unknown Pin: Pin C106-1
+Add Pin To Net: Unknown Pin: Pin C106-2
+Add Pin To Net: Unknown Pin: Pin C107-1
+Add Pin To Net: Unknown Pin: Pin C107-2
+Add Pin To Net: Unknown Pin: Pin Coil-0
+Add Pin To Net: Unknown Pin: Pin D1-NEG
+Add Pin To Net: Unknown Pin: Pin D2-NEG
+Add Pin To Net: Unknown Pin: Pin D3-NEG
+Add Pin To Net: Unknown Pin: Pin D4-NEG
+Add Pin To Net: Unknown Pin: Pin EN-2
+Add Pin To Net: Unknown Pin: Pin J1-A1/B12
+Add Pin To Net: Unknown Pin: Pin J1-A4/B9
+Add Pin To Net: Unknown Pin: Pin J1-A9/B4
+Add Pin To Net: Unknown Pin: Pin J1-A12/B1
+Add Pin To Net: Unknown Pin: Pin J1-Shell
+Add Pin To Net: Unknown Pin: Pin L1-0
+Add Pin To Net: Unknown Pin: Pin LB1-0
+Add Pin To Net: Unknown Pin: Pin R101-1
+Add Pin To Net: Unknown Pin: Pin R102-1
+Add Pin To Net: Unknown Pin: Pin R103-2
+Add Pin To Net: Unknown Pin: Pin R104-2
+Add Pin To Net: Unknown Pin: Pin R107-2
+Add Pin To Net: Unknown Pin: Pin R108-2
+Add Pin To Net: Unknown Pin: Pin U101-1
+Add Pin To Net: Unknown Pin: Pin U101-2
+Add Pin To Net: Unknown Pin: Pin U101-40
+Add Pin To Net: Unknown Pin: Pin U101-41_1
+Add Pin To Net: Unknown Pin: Pin U101-41_2
+Add Pin To Net: Unknown Pin: Pin U101-41_3
+Add Pin To Net: Unknown Pin: Pin U101-41_4
+Add Pin To Net: Unknown Pin: Pin U101-41_5
+Add Pin To Net: Unknown Pin: Pin U101-41_6
+Add Pin To Net: Unknown Pin: Pin U101-41_7
+Add Pin To Net: Unknown Pin: Pin U101-41_8
+Add Pin To Net: Unknown Pin: Pin U101-41_9
+Added Pin To Net: NetName=GND Pin=U102-1
+Added Pin To Net: NetName=3V3 Pin=U102-2
+Added Pin To Net: NetName=5V Pin=U102-3
+Add Pin To Net: Unknown Pin: Pin U103-2
+Add Pin To Net: Unknown Pin: Pin U103-5
+Added Net: Name=BOOT
+Added Net: Name=D+
+Added Net: Name=D-
+Added Net: Name=EN
+Added Net: Name=IO1
+Added Net: Name=IO2
+Added Net: Name=IO3
+Added Net: Name=IO4
+Added Net: Name=IO5
+Added Net: Name=IO6
+Added Net: Name=IO7
+Added Net: Name=IO8
+Added Net: Name=IO9
+Added Net: Name=IO10
+Added Net: Name=IO11
+Added Net: Name=IO12
+Added Net: Name=IO13
+Added Net: Name=IO14
+Added Net: Name=IO15
+Added Net: Name=IO16
+Added Net: Name=IO17
+Added Net: Name=IO18
+Added Net: Name=IO21
+Added Net: Name=IO35
+Added Net: Name=IO36
+Added Net: Name=IO37
+Added Net: Name=IO38
+Added Net: Name=IO39
+Added Net: Name=IO40
+Added Net: Name=IO41
+Added Net: Name=IO42
+Added Net: Name=IO45
+Added Net: Name=IO46
+Added Net: Name=IO47
+Added Net: Name=IO48
+Added Net: Name=NetD1_POS
+Added Net: Name=NetD2_POS
+Added Net: Name=NetD3_POS
+Added Net: Name=NetD4_POS
+Added Net: Name=NetJ1_A5
+Added Net: Name=NetJ1_A6
+Added Net: Name=NetJ1_A7
+Added Net: Name=NetJ1_B5
+Added Pin To Net: NetName=NetSupersonic1_1 Pin=Supersonic1-1
+Added Pin To Net: NetName=NetSupersonic1_1 Pin=Supersonic2-1
+Added Pin To Net: NetName=NetSupersonic1_1 Pin=Supersonic3-1
+Added Pin To Net: NetName=NetSupersonic1_1 Pin=Supersonic4-1
+Added Pin To Net: NetName=NetSupersonic1_1 Pin=Supersonic5-1
+Added Pin To Net: NetName=NetSupersonic1_1 Pin=Supersonic6-1
+Added Net: Name=NetSupersonic1_1
+Added Pin To Net: NetName=NetSupersonic1_4 Pin=Supersonic1-4
+Added Pin To Net: NetName=NetSupersonic1_4 Pin=Supersonic2-4
+Added Pin To Net: NetName=NetSupersonic1_4 Pin=Supersonic3-4
+Added Pin To Net: NetName=NetSupersonic1_4 Pin=Supersonic4-4
+Added Pin To Net: NetName=NetSupersonic1_4 Pin=Supersonic5-4
+Added Pin To Net: NetName=NetSupersonic1_4 Pin=Supersonic6-4
+Added Net: Name=NetSupersonic1_4
+Added Net: Name=RXD
+Added Net: Name=TXD
+Added Class: Name=Esp32-S3-Mainboard

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetC4_1 Pin=L1-1
+Added Component: Designator=L1(MPL-AY1050)
+Added Pin To Net: NetName=NetC4_1 Pin=L1-1
+Added Pin To Net: NetName=12V Pin=L1-2
+Add Pin To Net: Unknown Pin: Pin L2-0
+Add Pin To Net: Unknown Pin: Pin L3-0
