@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=U102-1
-Removed Pin From Net: NetName=3V3 Pin=U102-2
-Removed Pin From Net: NetName=5V Pin=U102-3
-Add Pin To Net: Unknown Pin: Pin Coil-0
-Add Pin To Net: Unknown Pin: Pin L1-0
-Add Pin To Net: Unknown Pin: Pin LB1-0

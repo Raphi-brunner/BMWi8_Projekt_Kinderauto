@@ -1,3 +1,0 @@
-Added Pin To Net: NetName=5V Pin=L2-2
-Added Pin To Net: NetName=3V3 Pin=L3-2
-Added Member To Class: ClassName=Power_Management Member=Component L1 10uH
