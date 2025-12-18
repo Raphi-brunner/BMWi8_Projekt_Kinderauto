@@ -1,14 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Power_Mangement\Power_Managment.PcbDoc
-Date     : 08.12.2025
-Time     : 17:14:00
+Date     : 18.12.2025
+Time     : 18:31:41
 
-Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
-   Violation between Clearance Constraint: (0.175mm < 0.25mm) Between Hole of Pad USB-C-(6.269mm,16.119mm) on Multi-Layer And Pad USB-C-B1_A12(7.344mm,15.809mm) on Top Layer 
-   Violation between Clearance Constraint: (0.21mm < 0.25mm) Between Hole of Pad USB-C-(6.269mm,16.119mm) on Multi-Layer And Pad USB-C-B4_A9(7.344mm,16.609mm) on Top Layer 
-   Violation between Clearance Constraint: (0.175mm < 0.25mm) Between Hole of Pad USB-C-(6.269mm,21.899mm) on Multi-Layer And Pad USB-C-A1_B12(7.344mm,22.209mm) on Top Layer 
-   Violation between Clearance Constraint: (0.21mm < 0.25mm) Between Hole of Pad USB-C-(6.269mm,21.899mm) on Multi-Layer And Pad USB-C-A4_B9(7.344mm,21.409mm) on Top Layer 
-Rule Violations :4
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -19,20 +17,431 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.3mm) (All)
+Processing Rule : Width Constraint (Min=0.127mm) (Max=25.4mm) (Preferred=0.127mm) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.127mm) (Air Gap=0.127mm) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
-Rule Violations :0
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,100.838mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,101.727mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,103.505mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,104.394mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,90.17mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,91.059mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,91.948mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,92.837mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,93.726mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,94.615mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,95.504mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,96.393mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,98.171mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,99.06mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (56.769mm,99.949mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,102.616mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,103.505mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,104.394mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,90.17mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,91.059mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,96.393mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (57.658mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,100.838mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,101.727mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,104.394mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,107.061mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,93.726mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,96.393mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (58.547mm,99.06mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,100.838mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,101.727mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,102.616mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,103.505mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,104.394mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,107.061mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,90.17mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,91.059mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,91.948mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,92.837mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,93.726mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,94.615mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,95.504mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,96.393mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,98.171mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,99.06mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (59.436mm,99.949mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,101.727mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,102.616mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,103.505mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,105.283mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,90.17mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,91.059mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,91.948mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,93.726mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,98.171mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (60.325mm,99.949mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,102.616mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,104.394mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,105.283mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,90.17mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,94.615mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,96.393mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,99.06mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (61.214mm,99.949mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,100.838mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,101.727mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,103.505mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,104.394mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,107.061mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,90.17mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,91.059mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,91.948mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,92.837mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,93.726mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,94.615mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,95.504mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,96.393mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,98.171mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,99.06mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.103mm,99.949mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,100.838mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,102.616mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,103.505mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,105.283mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,90.17mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (62.992mm,97.282mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,100.838mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,104.394mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,105.283mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,106.172mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,107.061mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,107.95mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,91.948mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,95.504mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.067mm < 0.076mm) Via (63.881mm,98.171mm) from Top Layer to Bottom Layer (Annular Ring=0.067mm) On (Top Layer)
+Rule Violations :116
 
-Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
-Rule Violations :0
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=6.3mm) (All)
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,87.141mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,87.649mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,88.157mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,88.665mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,89.173mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,89.681mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,90.189mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,90.697mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,91.205mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,91.713mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (10.482mm,92.856mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (11.844mm,18.49mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (12.7mm,22.86mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (13.876mm,19.558mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (14.986mm,22.86mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (15.908mm,30.425mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (17.178mm,30.425mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (17.975mm,92.348mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (18.288mm,50.038mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (20.226mm,40.64mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (20.226mm,43.688mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (20.722mm,86.246mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (20.881mm,13.93mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (22.352mm,30.734mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (26.576mm,13.335mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (29.751mm,22.86mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (3.335mm,30.353mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (33.342mm,90.316mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (34.739mm,111.356mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (35.974mm,19.558mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (38.676mm,84.982mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (4.478mm,30.988mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (40.114mm,103.983mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (41.054mm,74.214mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (42.486mm,89.046mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (42.613mm,103.778mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (42.74mm,94.126mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (43.883mm,105.652mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (45.28mm,81.961mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (48.387mm,61.849mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (48.407mm,76.346mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (49.598mm,97.174mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (49.893mm,82.24mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (49.979mm,112.414mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (53.34mm,38.1mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (56.261mm,71.882mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (56.769mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (57.658mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (58.293mm,78.994mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (58.42mm,77.47mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (58.547mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (59.436mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (59.69mm,76.962mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (6.604mm,29.718mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (6.926mm,95.015mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (60.325mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (60.96mm,76.454mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (61.214mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.103mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (62.23mm,75.946mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (62.992mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (63.5mm,72.009mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,100.838mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,101.727mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,102.616mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,103.505mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,104.394mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,105.283mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,106.172mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,107.061mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,107.95mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,90.17mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,91.059mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,91.948mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,92.837mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,93.726mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,94.615mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,95.504mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,96.393mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,97.282mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,98.171mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,99.06mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.115mm < 0.3mm) Via (63.881mm,99.949mm) from Top Layer to Bottom Layer Actual Hole Size = 0.115mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (65.405mm,78.994mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (7.942mm,87.141mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (72.517mm,76.962mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (75.184mm,76.454mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (77.851mm,75.946mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (78.613mm,77.47mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.441mm,19.261mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,87.141mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,87.649mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,88.157mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,88.665mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,89.173mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,89.681mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,90.189mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,90.697mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,91.205mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,91.713mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.45mm,92.856mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.466mm,17.983mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,87.141mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,87.649mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,88.157mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,88.665mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,89.173mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,89.681mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,90.189mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,90.697mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,91.205mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,91.713mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (8.958mm,92.856mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,87.141mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,87.649mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,88.157mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,88.665mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,89.173mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,89.681mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,90.189mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,90.697mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,91.205mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,91.713mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.466mm,92.856mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,87.141mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,87.649mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,88.157mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,88.665mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,89.173mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,89.681mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,90.189mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,90.697mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,91.205mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,91.713mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+   Violation between Hole Size Constraint: (0.2mm < 0.3mm) Via (9.974mm,92.856mm) from Top Layer to Bottom Layer Actual Hole Size = 0.2mm
+Rule Violations :295
 
 Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
 Rule Violations :0
@@ -40,25 +449,98 @@ Rule Violations :0
 Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S1-1(13.876mm,108.504mm) on Multi-Layer And Track (13.876mm,105.964mm)(13.876mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S1-1(8.796mm,108.504mm) on Multi-Layer And Track (8.796mm,105.964mm)(8.796mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S1-2(24.036mm,108.504mm) on Multi-Layer And Track (24.036mm,105.964mm)(24.036mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S1-2(29.116mm,108.504mm) on Multi-Layer And Track (29.116mm,105.964mm)(29.116mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S2-1(24.201mm,78.878mm) on Multi-Layer And Track (24.201mm,76.338mm)(24.201mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S2-1(29.281mm,78.878mm) on Multi-Layer And Track (29.281mm,76.338mm)(29.281mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S2-2(14.041mm,78.878mm) on Multi-Layer And Track (14.041mm,76.338mm)(14.041mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad S2-2(8.961mm,78.878mm) on Multi-Layer And Track (8.961mm,76.338mm)(8.961mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-Rule Violations :8
+Processing Rule : Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.127mm) Between Pad C10-1(39.819mm,110.07mm) on Top Layer And Track (39.619mm,109.62mm)(40.019mm,109.62mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.127mm) Between Pad C10-2(39.819mm,109.17mm) on Top Layer And Track (39.619mm,109.62mm)(40.019mm,109.62mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.127mm) Between Pad C29-1(13.114mm,18.092mm) on Top Layer And Track (12.914mm,18.542mm)(13.314mm,18.542mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.127mm) Between Pad C29-2(13.114mm,18.992mm) on Top Layer And Track (12.914mm,18.542mm)(13.314mm,18.542mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.114mm < 0.127mm) Between Pad C5-1(9.582mm,97.428mm) on Top Layer And Text "C5" (7.812mm,97.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.114mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.117mm < 0.127mm) Between Pad C6-1(9.582mm,95.65mm) on Top Layer And Text "C6" (7.815mm,95.266mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.117mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.117mm < 0.127mm) Between Pad C7-1(9.582mm,93.872mm) on Top Layer And Text "C7" (7.815mm,93.488mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.117mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.103mm < 0.127mm) Between Pad C7-2(11.372mm,93.872mm) on Top Layer And Text "U1" (11.842mm,92.477mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.103mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad D40-1(113.713mm,64.77mm) on Top Layer And Text ".Designator" (112.078mm,64.135mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad D41-1(94.615mm,67.358mm) on Top Layer And Text ".Designator" (95.25mm,65.722mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad D50-1(73.708mm,64.77mm) on Top Layer And Text ".Designator" (72.073mm,64.135mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad D51-1(53.721mm,67.612mm) on Top Layer And Text ".Designator" (54.356mm,65.977mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad D51-1(53.721mm,67.612mm) on Top Layer And Text "C57" (56.19mm,66.922mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad Q11-2(107.415mm,80.104mm) on Top Layer And Text ".Designator" (105.392mm,79.144mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.056mm < 0.127mm) Between Pad Q11-3(107.415mm,79.454mm) on Top Layer And Text ".Designator" (105.392mm,79.144mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.056mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.086mm < 0.127mm) Between Pad Q11-4(107.415mm,78.804mm) on Top Layer And Text ".Designator" (105.392mm,79.144mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.086mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad Q12-2(91.975mm,82.954mm) on Top Layer And Text ".Designator" (89.952mm,81.994mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.011mm < 0.127mm) Between Pad Q12-3(91.975mm,82.304mm) on Top Layer And Text ".Designator" (89.952mm,81.994mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.011mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.086mm < 0.127mm) Between Pad Q12-4(91.975mm,81.654mm) on Top Layer And Text ".Designator" (89.952mm,81.994mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.086mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad Q13-2(98.525mm,81.374mm) on Top Layer And Text ".Designator" (96.502mm,80.414mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad Q13-3(98.525mm,80.724mm) on Top Layer And Text ".Designator" (96.502mm,80.414mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.086mm < 0.127mm) Between Pad Q13-4(98.525mm,80.074mm) on Top Layer And Text ".Designator" (96.502mm,80.414mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.086mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.021mm < 0.127mm) Between Pad Q14-2(113.33mm,79.779mm) on Top Layer And Text ".Designator" (111.307mm,78.819mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.021mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.056mm < 0.127mm) Between Pad Q14-3(113.33mm,79.129mm) on Top Layer And Text ".Designator" (111.307mm,78.819mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.056mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.086mm < 0.127mm) Between Pad Q14-4(113.33mm,78.479mm) on Top Layer And Text ".Designator" (111.307mm,78.819mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.086mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad Q18-1(75.384mm,96.307mm) on Top Layer And Text "R57" (74.959mm,96.519mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.114mm < 0.127mm) Between Pad R14-1(37.533mm,94.138mm) on Top Layer And Text "U3" (38.057mm,92.858mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.114mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad R58-1(75.184mm,94.857mm) on Top Layer And Text "R57" (74.959mm,96.519mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S1-1(13.876mm,108.504mm) on Multi-Layer And Track (13.876mm,105.964mm)(13.876mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S1-1(8.796mm,108.504mm) on Multi-Layer And Track (8.796mm,105.964mm)(8.796mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S1-2(24.036mm,108.504mm) on Multi-Layer And Track (24.036mm,105.964mm)(24.036mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S1-2(29.116mm,108.504mm) on Multi-Layer And Track (29.116mm,105.964mm)(29.116mm,111.044mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S2-1(24.201mm,78.878mm) on Multi-Layer And Track (24.201mm,76.338mm)(24.201mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S2-1(29.281mm,78.878mm) on Multi-Layer And Track (29.281mm,76.338mm)(29.281mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S2-2(14.041mm,78.878mm) on Multi-Layer And Track (14.041mm,76.338mm)(14.041mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad S2-2(8.961mm,78.878mm) on Multi-Layer And Track (8.961mm,76.338mm)(8.961mm,81.418mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.116mm < 0.127mm) Between Pad U5-1(9.575mm,19.521mm) on Top Layer And Track (9.615mm,19.876mm)(10.915mm,19.876mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.116mm < 0.127mm) Between Pad U5-3(9.575mm,18.521mm) on Top Layer And Track (9.615mm,18.166mm)(10.915mm,18.166mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.116mm < 0.127mm) Between Pad U5-4(10.955mm,18.521mm) on Top Layer And Track (9.615mm,18.166mm)(10.915mm,18.166mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.116mm < 0.127mm) Between Pad U5-6(10.955mm,19.521mm) on Top Layer And Track (9.615mm,19.876mm)(10.915mm,19.876mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad U7-10(69.85mm,64.515mm) on Top Layer And Text "R60" (67.517mm,64.301mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad U7-2(59.69mm,64.515mm) on Top Layer And Text "R62" (59.659mm,64.301mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad U7-3(60.96mm,64.515mm) on Top Layer And Text "R62" (59.659mm,64.301mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad U7-4(62.23mm,64.515mm) on Top Layer And Text "R62" (59.659mm,64.301mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad U7-8(67.31mm,64.515mm) on Top Layer And Text "R60" (67.517mm,64.301mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad U7-9(68.58mm,64.515mm) on Top Layer And Text "R60" (67.517mm,64.301mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :46
 
 Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Track (29.116mm,108.504mm)(53.421mm,108.504mm) on Bottom Layer 
+   Violation between Net Antennae: Via (72.517mm,76.962mm) from Top Layer to Bottom Layer 
+Rule Violations :2
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C42-1(182.429mm,92.085mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C42-2(182.429mm,93.335mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C43-1(157.156mm,92.085mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C43-2(157.156mm,93.335mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C46-1(244.405mm,92.085mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C46-2(244.405mm,93.335mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C51-1(118.05mm,123.698mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad C51-2(119.3mm,123.698mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R43-1(218.89mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R43-2(220.39mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R44-1(145.611mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R44-2(147.111mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R45-1(180.282mm,84.074mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R45-2(181.782mm,84.074mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R46-1(151.453mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R46-2(152.953mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R47-1(188.41mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R47-2(189.91mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R49-1(194.252mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R49-2(195.752mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R50-1(139.769mm,92.964mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Pad R50-2(141.269mm,92.964mm) on Top Layer 
    Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Text "C14" (36.96mm,110.955mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C42" (182.759mm,95.13mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C43" (157.481mm,95.13mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C46" (244.73mm,95.13mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "C51" (118.231mm,125.509mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R43" (219.096mm,95.035mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R44" (145.819mm,95.029mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R45" (180.484mm,86.147mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R46" (151.659mm,95.035mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R47" (188.616mm,95.029mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R49" (194.457mm,95.035mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Text "R50" (139.976mm,95.035mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-0.011mm,14.539mm)(1.269mm,14.539mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-0.011mm,23.479mm)(1.269mm,23.479mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (0.073mm < 0.2mm) Between Board Edge And Track (51.7mm,112.6mm)(51.9mm,112.8mm) on Top Overlay 
@@ -66,12 +548,12 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-6.75mm,32.158mm)(-1mm,32.158mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-6.75mm,32.158mm)(-6.75mm,50.158mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-6.75mm,50.158mm)(-1mm,50.158mm) on Top Overlay 
-Rule Violations :8
+Rule Violations :41
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 20
+Violations Detected : 500
 Waived Violations : 0
 Time Elapsed        : 00:00:02

@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=Esp32-S3-Mainboard Member=R30
+Change Component Footprint: Designator=U6 Old Footprint=M20_3_MFG New Footprint=M20_3_MFG
+Change Component Footprint: Designator=U7 Old Footprint=M20_3_MFG New Footprint=M20_3_MFG
+Added Pin To Net: NetName=IO38 Pin=ESP32-S3-31
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component R21 Resistor 100k +/-1% 0603 100 mW
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component R22 Resistor 10k +/-1% 0603 100 mW
