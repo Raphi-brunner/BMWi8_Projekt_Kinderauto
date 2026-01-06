@@ -1,0 +1,17 @@
+Added Component: Designator=Gang(Sip-3)
+Added Pin To Net: NetName=D 3V3 Pin=Gang-2
+Added Pin To Net: NetName=IO15 Pin=ESP32-S3-8
+Added Net: Name=IO15
+Added Pin To Net: NetName=IO16 Pin=ESP32-S3-9
+Added Net: Name=IO16
+Added Pin To Net: NetName=IO17 Pin=ESP32-S3-10
+Added Net: Name=IO17
+Added Pin To Net: NetName=IO18 Pin=ESP32-S3-11
+Added Net: Name=IO18
+Added Pin To Net: NetName=IO21 Pin=ESP32-S3-23
+Added Pin To Net: NetName=IO21 Pin=Gang-3
+Added Net: Name=IO21
+Added Pin To Net: NetName=IO47 Pin=ESP32-S3-24
+Added Pin To Net: NetName=IO47 Pin=Gang-1
+Added Net: Name=IO47
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component Gang CON3

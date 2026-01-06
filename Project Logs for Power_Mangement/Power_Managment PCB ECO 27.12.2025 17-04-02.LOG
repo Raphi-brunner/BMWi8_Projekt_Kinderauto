@@ -1,0 +1,9 @@
+Added Component: Designator=D50(SMA_DIO)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2025 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "B170-13-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC56_2 Pin=D50-1
+Added Pin To Net: NetName=12V Pin=D50-2
+Added Member To Class: ClassName=Motortreiber Member=Component D50 B170-13-F

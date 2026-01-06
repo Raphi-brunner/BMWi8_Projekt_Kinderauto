@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=LED_Power-2
+Removed Member From Class: ClassName=Power_Management Member=LED_Power
+Added Component: Designator=LED(Sip-3)
+Added Pin To Net: NetName=GND Pin=LED-3
+Added Pin To Net: NetName=IO48 Pin=ESP32-S3-25
+Added Pin To Net: NetName=IO48 Pin=LED-2
+Added Net: Name=IO48
+Added Pin To Net: NetName=NetLED_1 Pin=LED-1
+Added Pin To Net: NetName=NetLED_1 Pin=S2-2
+Added Pin To Net: NetName=NetLED_1 Pin=S2-2
+Added Net: Name=NetLED_1
+Added Member To Class: ClassName=Power_Management Member=Component LED CON3

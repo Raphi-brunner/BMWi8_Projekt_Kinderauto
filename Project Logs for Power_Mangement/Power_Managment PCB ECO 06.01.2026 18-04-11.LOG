@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=IO37 Pin=U7-2
+Removed Pin From Net: NetName=IO38 Pin=U7-5
+Removed Pin From Net: NetName=IO36 Pin=U7-6
+Removed Pin From Net: NetName=IO35 Pin=U7-7
+Added Pin To Net: NetName=IO39 Pin=ESP32-S3-32
+Added Pin To Net: NetName=IO39 Pin=U7-7
+Added Net: Name=IO39
+Added Pin To Net: NetName=IO40 Pin=ESP32-S3-33
+Added Pin To Net: NetName=IO40 Pin=U7-6
+Added Net: Name=IO40
+Added Pin To Net: NetName=IO41 Pin=ESP32-S3-34
+Added Pin To Net: NetName=IO41 Pin=U7-2
+Added Net: Name=IO41
+Added Pin To Net: NetName=IO42 Pin=ESP32-S3-35
+Added Pin To Net: NetName=IO42 Pin=U7-5
+Added Net: Name=IO42
