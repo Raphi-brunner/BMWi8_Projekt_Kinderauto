@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\Power_Mangement\Power_Managment.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=power_managment-roundholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=power_managment-slotholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=power_managment-roundholes-nonplated.txt|DrillLayers=gtl,gbl

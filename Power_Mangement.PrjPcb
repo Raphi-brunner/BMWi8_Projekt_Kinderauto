@@ -32,10 +32,13 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-IsVirtualBomDocumentRemoved=0
+IsVirtualBomDocumentRemoved=1
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=
+ManagedProjectGUID=BF9FF58D-35CF-4F9A-92B1-EE728253DA04
+VaultGUID=BDE65899-2CE6-4F2E-97B8-CFBA91C3F541
+ReleaseVaultName=HTL St.Pölten / L-PRAN
+ItemGUID=BF9FF58D-35CF-4F9A-92B1-EE728253DA04
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -49,23 +52,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\AD23\Library\HTL-part-2021_04.pcblib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=..\AD23\Library\HTL-sym-2021_04.schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +68,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQXFLGBT
 
-[Document3]
+[Document2]
 DocumentPath=..\AD23\Library\MP2338GTL-Z.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +85,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=..\AD23\Library\Coil MPS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +102,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RGOTRVRW
 
-[Document5]
+[Document4]
 DocumentPath=Coil 6.8uH.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IGPNYKGF
 
-[Document6]
+[Document5]
 DocumentPath=..\AD23\Library\10uH.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWWJCRCT
 
-[Document7]
+[Document6]
 DocumentPath=Coil 10uH.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JKHSDXZH
 
-[Document8]
+[Document7]
 DocumentPath=Power_Managment.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VCVXGUAW
 
-[Document9]
+[Document8]
 DocumentPath=Power_Management.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +187,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DIIYAWYI
 
-[Document10]
+[Document9]
 DocumentPath=Power_Mangement.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=..\AD23\Library\MP2338GTL-Z.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=..\AD23\Library\MP2338GTL-Z.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=Esp32-S3-Mainboard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWTINCAT
 
-[Document14]
+[Document13]
 DocumentPath=SnapDocs\629722000214.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=SnapDocs\629722000214.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=..\AD23\Library\ESP32-S3-WROOM-1-N16R8.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=..\AD23\Library\ATTINY13A-SU.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +323,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=..\AD23\Library\USB4105GFA120.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +340,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=..\AD23\Library\CP2102N-A02-GQFN20.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +357,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=..\AD23\Library\USBLC6-2P6.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -388,7 +374,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -405,7 +391,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DQRQZOJP
 
-[Document22]
+[Document21]
 DocumentPath=..\AD23\Library\AMS1117-3.3.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,7 +408,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document22]
 DocumentPath=..\AD23\Library\TEM-HUM-DHT11_4P-15.5X12.0MM_.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -439,7 +425,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=..\AD23\Library\SN74LV1T34DBVR.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -456,7 +442,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=..\AD23\Library\LSM6DSR.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,7 +459,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document25]
 DocumentPath=..\AD23\Library\CMI-1295IC-0385T.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -490,7 +476,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document26]
 DocumentPath=Job1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -507,7 +493,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document27]
 DocumentPath=Motortreiber.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -524,7 +510,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJGXNKNW
 
-[Document29]
+[Document28]
 DocumentPath=..\AD23\Library\NVTFS5C670NLTAG.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -541,7 +527,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document29]
 DocumentPath=..\AD23\Library\NVTFS5C670NLTAG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,7 +544,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document30]
 DocumentPath=..\AD23\Library\NVTFS5C670NLTAG.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -575,7 +561,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document31]
 DocumentPath=..\AD23\Library\B170-13-F.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -592,7 +578,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document32]
 DocumentPath=..\AD23\Library\B170-13-F.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -607,9 +593,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UVPNOYLL
 
-[Document34]
+[Document33]
 DocumentPath=..\AD23\Library\B170-13-F.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -626,60 +612,225 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document34]
+DocumentPath=..\AD23\Library\HTL-part-2021_04.pcblib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TVXGQYNJ
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Power_Mangement\Design Rule Check - Power_Managment.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment-RoundHoles.TXT
+DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment-RoundHoles-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment-SlotHoles.TXT
+DocumentPath=Project Outputs for Power_Mangement\NC Drill\Power_Managment-RoundHoles-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment.DRR
+DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment-RoundHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment.LDP
+DocumentPath=Project Outputs for Power_Mangement\NC Drill\Power_Managment-RoundHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for Power_Mangement\NC Drill\Power_Managment-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Legend_Bot.gbr
+DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment-SlotHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Legend_Top.gbr
+DocumentPath=Project Outputs for Power_Mangement\NC Drill\Power_Managment-SlotHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Paste_Bot.gbr
+DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Paste_Top.gbr
+DocumentPath=Project Outputs for Power_Mangement\NC Drill\Power_Managment-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Profile.gbr
+DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for Power_Mangement\NC Drill\Power_Managment.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GM
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GM
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for Free Documents\NC Drill\Power_Managment.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for Power_Mangement\NC Drill\Power_Managment.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
 DocumentPath=Project Outputs for Free Documents\Gerber\Power_Managment_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for Power_Mangement\Gerber\Power_Managment_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1047,6 +1198,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
