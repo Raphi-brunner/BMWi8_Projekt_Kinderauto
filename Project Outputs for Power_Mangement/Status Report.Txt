@@ -1,0 +1,18 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Power_Managment.PcbDoc]
+   Generated File[Power_Managment.GTO]
+   Generated File[Power_Managment.GTP]
+   Generated File[Power_Managment.GTS]
+   Generated File[Power_Managment.GTL]
+   Generated File[Power_Managment.GBL]
+   Generated File[Power_Managment.GBS]
+   Generated File[Power_Managment.GBP]
+   Generated File[Power_Managment.GBO]
+   Generated File[Power_Managment.GM]
+
+
+Files Generated   : 9
+Documents Printed : 0
+
+Finished Output Generation At 17:57:41 On 25.01.2026

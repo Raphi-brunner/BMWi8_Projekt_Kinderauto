@@ -1,0 +1,5 @@
+Added Component: Designator=IR_Sensor(Sip-3)
+Added Pin To Net: NetName=D 3V3 Pin=IR_Sensor-1
+Added Pin To Net: NetName=IO46 Pin=IR_Sensor-2
+Added Pin To Net: NetName=DGND Pin=IR_Sensor-3
+Added Member To Class: ClassName=Esp32-S3-Mainboard Member=Component IR_Sensor CON3
