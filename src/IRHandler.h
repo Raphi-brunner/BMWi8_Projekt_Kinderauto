@@ -13,7 +13,7 @@ public:
     IRHandler(uint8_t pin);
 
     void begin();
-    void receive();
+    uint32_t receive();
 };
 
 #endif

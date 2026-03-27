@@ -11,7 +11,7 @@ void JSN_SR04::begin() {
 }
 
 
-void JSN_SR04::distance() {
+int JSN_SR04::distance() {
   // Trigger Impuls 20 µs
   digitalWrite(_TRIG, HIGH);
   delayMicroseconds(20);
@@ -20,7 +20,7 @@ void JSN_SR04::distance() {
   // Echo messen
   echoZeit = pulseIn(_ECHO, HIGH, 30000); // Timeout 30 ms (~5 m)
 
-  if (echoZeit == 0) {
+  /*if (echoZeit == 0) {
     Serial0.println("Kein Echo (Objekt zu nah oder zu weit)");
   } else {
     // Entfernung in cm berechnen
@@ -33,5 +33,9 @@ void JSN_SR04::distance() {
       Serial0.print(distanz);
       Serial0.println(" cm");
     }
-  }
+  }*/
+
+  distanz = (echoZeit * 0.0343) / 2.0; // Entfernung in cm berechnen
+  return distanz;
+
 }

@@ -5,10 +5,10 @@
 #define TRIG_PIN 5
 #define ECHO_PIN_1 9
 #define ECHO_PIN_2 10
-#define Echo_PIN_3 11
-#define Echo_PIN_4 12 
-#define Echo_PIN_5 13
-#define Echo_PIN_6 14
+#define ECHO_PIN_3 11
+#define ECHO_PIN_4 12 
+#define ECHO_PIN_5 13
+#define ECHO_PIN_6 14
 
 // Buzzer Pin
 #define BUZZER 4 
@@ -25,6 +25,11 @@
 #define BHI2 41
 #define BLI2 42
 #define DIS2 45
+
+//Gangschaltungsen Pins INPUT
+#define G_VOR 21
+#define G_RUEK 47
+
 
 
 #endif

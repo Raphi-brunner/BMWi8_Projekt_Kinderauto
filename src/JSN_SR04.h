@@ -17,7 +17,7 @@ public:
     JSN_SR04(uint8_t TRIG, uint8_t ECHO);
 
     void begin();
-    void distance();
+    int distance();
 };
 
 #endif
