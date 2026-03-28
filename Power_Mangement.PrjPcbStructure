@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Esp32-S3-Mainboard.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Esp32-S3-Mainboard.SchDoc|FileName=Motortreiber.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Esp32-S3-Mainboard.SchDoc|FileName=Power_Management.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Esp32-S3-Mainboard.SchDoc|FileName=Sensors.SchDoc|SheetNumber=3

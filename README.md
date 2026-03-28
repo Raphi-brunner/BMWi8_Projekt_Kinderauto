@@ -2,3 +2,6 @@
 
 *hinzugefügt:*
 - IR Modul auslesen 
+- JSN_SR04 Sensor auslesen
+- Buzzer 
+- Motorsteuerung
