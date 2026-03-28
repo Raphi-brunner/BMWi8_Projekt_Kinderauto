@@ -3,6 +3,7 @@
 #include "JSN_SR04.h"
 #include "IRHandler.h"
 #include "defines.h"
+#include "Buzzer.h"
 
 // Motoren initialisieren
 MotorDriver motor1(AHI1, ALI1, BHI1, BLI1, DIS1);
@@ -10,6 +11,9 @@ MotorDriver motor2(AHI2, ALI2, BHI2, BLI2, DIS2);
 
 // IR-Empfänger initialisieren
 IRHandler TabletIR(2); // Beispiel: Pin 2 für IR-Empfänger
+
+//Buzzer festlegen
+Buzzer buzzer(BUZZER); // Beispiel: Pin 13 für Buzzer
 
 /*
 // Ultraschallsensoren initialisieren
@@ -43,10 +47,14 @@ if (TabletIR.receive() == 0xFF629D) {   // Überprüfen ob Auto gestartet wurde 
   LICHT und Sonstiges hier einfügen,
   */
   
+  buzzer.playUnlockTone(); // Ton abspielen, wenn das Auto gestartet wird
+
+
   if (digitalRead(G_VOR) == HIGH) {   
     
   }
   else if (digitalRead(G_RUEK) == HIGH) {
+    
 
   }
   else if (digitalRead(G_RUEK) == LOW && digitalRead(G_VOR) == LOW) {
@@ -54,10 +62,4 @@ if (TabletIR.receive() == 0xFF629D) {   // Überprüfen ob Auto gestartet wurde 
   }
   
 };
-  int speed = 100; // Geschwindigkeit 0-255
-  motor1.forward(speed);
- 
-
-  // Kein Stop, fährt kontinuierlich vorwärts
-  delay(100); // kleine Pause, damit loop nicht komplett durchrauscht
 }
