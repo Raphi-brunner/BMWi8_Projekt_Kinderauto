@@ -11,7 +11,7 @@ void JSN_SR04::begin() {
 }
 
 
-int JSN_SR04::distance() {
+float JSN_SR04::distance() {
   // Trigger Impuls 20 µs
   digitalWrite(_TRIG, HIGH);
   delayMicroseconds(20);
