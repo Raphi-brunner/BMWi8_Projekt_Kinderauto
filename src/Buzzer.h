@@ -1,5 +1,16 @@
 #ifndef BUZZER_H
 #define BUZZER_H
-void Buzzer(){};
+
+#include <Arduino.h>
+
+class Buzzer {
+private:
+    int pin;  // Buzzer-Pin
+
+public:
+    Buzzer(int buzzerPin);  // Konstruktor
+    void playReverseTone(float distance);  // Piept bei Hindernis (z.B. Rückwärtsfahren)
+    void playUnlockTone();  // Kurzer Ton für Aufsperren
+};
 
 #endif
