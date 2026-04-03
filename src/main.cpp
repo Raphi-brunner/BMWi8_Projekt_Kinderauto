@@ -6,14 +6,14 @@
 #include "Buzzer.h"
 
 // Motoren initialisieren
-MotorDriver motor1(AHI1, ALI1, BHI1, BLI1, DIS1);
-MotorDriver motor2(AHI2, ALI2, BHI2, BLI2, DIS2);
+MotorDriver motor1(AHI1, ALI1, BHI1, BLI1, DIS);
+MotorDriver motor2(AHI2, ALI2, BHI2, BLI2, DIS);
 
 // IR-Empfänger initialisieren
 IRHandler TabletIR(2); // Beispiel: Pin 2 für IR-Empfänger
 
 //Buzzer festlegen
-Buzzer buzzer(BUZZER); // Beispiel: Pin 13 für Buzzer
+Buzzer buzzer(BUZZER); // #defindes: Pin 13 für Buzzer
 
 /*
 // Ultraschallsensoren initialisieren
@@ -43,6 +43,7 @@ void setup() {
 void loop() {
 
 if (TabletIR.receive() == 0xFF629D) {   // Überprüfen ob Auto gestartet wurde "0xFF629D" Beispiel
+  
   /*
   LICHT und Sonstiges hier einfügen,
   */
