@@ -1,23 +1,19 @@
+// JSN_SR04.h
 #ifndef JSN_SR04_H
 #define JSN_SR04_H
 
 #include <Arduino.h>
 
-
-class JSN_SR04
-{
+class Sensor {
 private:
-    uint8_t _TRIG;
-    uint8_t _ECHO;
+    uint8_t trigger_pin;
+    uint8_t echo_pin;
+    const char* name;
 
-    unsigned long echoZeit = 0;
-    float distanz = 0.0;
-    
 public:
-    JSN_SR04(uint8_t TRIG, uint8_t ECHO);
-
+    Sensor(uint8_t trig, uint8_t echo, const char* sensor_name);
     void begin();
-    float distance();
+    float measure();
 };
 
 #endif

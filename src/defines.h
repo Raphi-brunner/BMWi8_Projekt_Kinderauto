@@ -36,8 +36,6 @@
 // Gangschaltungsen Pins INPUT
 #define G_VOR 21
 #define G_RUEK 47
-
-
-
+ 
 
 #endif

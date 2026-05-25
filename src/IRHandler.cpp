@@ -1,4 +1,4 @@
-#include "IRHandler.h"
+/*#include "IRHandler.h"
 #include <IRremote.hpp>
 
 IRHandler::IRHandler(uint8_t pin) : _pin(pin) {}
@@ -22,4 +22,4 @@ uint32_t IRHandler::receive() {
     IrReceiver.resume();
 
     return code;
-}
+}*/

@@ -11,6 +11,7 @@ public:
     Buzzer(int buzzerPin);  // Konstruktor
     void playReverseTone(float distance);  // Piept bei Hindernis (z.B. Rückwärtsfahren)
     void playUnlockTone();  // Kurzer Ton für Aufsperren
+    void uploadTone();  // Ton für Hochladen
 };
 
 #endif

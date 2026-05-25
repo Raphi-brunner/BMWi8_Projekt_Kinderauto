@@ -18,5 +18,13 @@ void Buzzer::playReverseTone(float distance) {
 }
 
 void Buzzer::playUnlockTone() {
-    tone(pin, 1500, 500);  // Kurzer Ton bei 1500 Hz für 500ms
+    tone(pin, 700, 100);  // Kurzer Ton bei 700 Hz für 500ms
+    delay(10);  // Kurze Pause zwischen den Tönen
+    tone(pin, 700, 100);  // Kurzer Ton bei 700 Hz für 500ms
+}
+
+void Buzzer::uploadTone() {
+    tone(pin, 700);  // Kurzer Ton bei 700 Hz für 500ms
+    delay(200);  // Warte 500ms
+    noTone(pin);  // Ton ausschalten nach dem Abspielen
 }

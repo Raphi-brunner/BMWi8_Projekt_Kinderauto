@@ -1,4 +1,4 @@
-#ifndef IR_HANDLER_H
+/*#ifndef IR_HANDLER_H
 #define IR_HANDLER_H
 
 #include <Arduino.h>
@@ -17,3 +17,4 @@ public:
 };
 
 #endif
+*/
