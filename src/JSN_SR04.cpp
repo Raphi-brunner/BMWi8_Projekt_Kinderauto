@@ -1,17 +1,17 @@
 // JSN_SR04.cpp
 #include "JSN_SR04.h"
 
-Sensor::Sensor(uint8_t trig, uint8_t echo, const char* sensor_name)
+JSN_SR04::JSN_SR04(uint8_t trig, uint8_t echo, const char* sensor_name)
     : trigger_pin(trig), echo_pin(echo), name(sensor_name) {}
 
-void Sensor::begin()
+void JSN_SR04::begin()
 {
     pinMode(trigger_pin, OUTPUT);
     pinMode(echo_pin, INPUT);
     digitalWrite(trigger_pin, LOW);
 }
 
-float Sensor::measure()
+float JSN_SR04::measure()
 {
     digitalWrite(trigger_pin, HIGH);
     delayMicroseconds(200);

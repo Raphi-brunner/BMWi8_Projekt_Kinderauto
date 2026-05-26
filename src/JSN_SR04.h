@@ -4,14 +4,14 @@
 
 #include <Arduino.h>
 
-class Sensor {
+class JSN_SR04 {
 private:
     uint8_t trigger_pin;
     uint8_t echo_pin;
     const char* name;
 
 public:
-    Sensor(uint8_t trig, uint8_t echo, const char* sensor_name);
+    JSN_SR04(uint8_t trig, uint8_t echo, const char* sensor_name);
     void begin();
     float measure();
 };
