@@ -21,25 +21,25 @@ void MotorDriver::begin() {
 
 void MotorDriver::forward(int speed) {
   // Stop vorher aktivieren, um Deadtime einzuhalten
-  digitalWrite(_DIS, LOW); // Motoren freigeben
+  digitalWrite(_DIS, LOW);
   stop();
   delayMicroseconds(2);  // Deadtime
 
   digitalWrite(_AHI, HIGH);
   digitalWrite(_BHI, LOW);
   ledcWrite(0, 0); //anderen PWM-Kanal auf LOW setzen, um sicherzustellen, dass nur einer aktiv ist
-  ledcWrite(1, speed); // PWM Kanal 1 (_BLI) aktivieren
+  ledcWrite(1, speed);
 }
 
 void MotorDriver::backward(int speed) {
-  digitalWrite(_DIS, LOW); // Motoren freigeben
+  digitalWrite(_DIS, LOW); 
   stop();
-  delayMicroseconds(2);  // Deadtime
+  delayMicroseconds(2);  
 
   digitalWrite(_AHI, LOW);
   digitalWrite(_BHI, HIGH);
-  ledcWrite(1, 0); //anderen PWM-Kanal auf LOW setzen, um sicherzustellen, dass nur einer aktiv ist
-  ledcWrite(0, constrain(speed, 0, 170)); // PWM Kanal 0 (_ALI) beschränkt auf 170 (ca. 66% Leistung) für Rückwärtsfahrt.
+  ledcWrite(1, 0); 
+  ledcWrite(0, constrain(speed, 0, 170));
 }
 
 void MotorDriver::stop() {
