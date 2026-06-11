@@ -24,6 +24,7 @@ private:
     void _bereichFarbe(uint8_t von, uint8_t bis, CRGB farbe);
     void _fahrenAnzeigen();
     void _blinkerUpdate(uint8_t von, uint8_t bis);
+    void _chBright(uint8_t von, uint8_t bis, bool mode);
 };
 
 #endif

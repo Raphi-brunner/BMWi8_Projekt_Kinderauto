@@ -1,6 +1,6 @@
 #include "Motorsteuerung.h"
 
-MotorDriver::MotorDriver(int AHI, int ALI, int BHI, int BLI, int DIS) : _AHI(AHI), _ALI(ALI), _BHI(BHI), _BLI(BLI), _DIS(DIS) {}
+MotorDriver::MotorDriver(int AHI, int ALI, int BHI, int BLI, int DISABLE) : _AHI(AHI), _ALI(ALI), _BHI(BHI), _BLI(BLI), _DIS(DISABLE) {}
 
 void MotorDriver::begin() {
   pinMode(_AHI, OUTPUT);

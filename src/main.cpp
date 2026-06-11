@@ -7,112 +7,79 @@
 #include "BME280.h"
 #include "LED.h"
 
-
-MotorDriver motor1(AHI1, ALI1, BHI1, BLI1, DIS);
-MotorDriver motor2(AHI2, ALI2, BHI2, BLI2, DIS);
-
-
-IRHandler TabletIR(2);
-
-
+LED led;
 Buzzer buzzer(BUZZER);
 
+void setup()
+{
+    Serial0.begin(115200);
+    Serial0.println("=== BMW i8 Kinderauto – Systemstart ===");
 
-// Seite:  jsn_S_R = Seite Rechts  |  jsn_S_L = Seite Links
-// Hinten: jsn_B_R1/R2 = hinten rechts außen/mittig  |  jsn_B_L1/L2 = hinten links außen/mittig
-JSN_SR04 jsn_S_R (TRIG_PIN, ECHO_PIN_1, "Seite Rechts");
-JSN_SR04 jsn_S_L (TRIG_PIN, ECHO_PIN_2, "Seite Links");
-JSN_SR04 jsn_B_R1(TRIG_PIN, ECHO_PIN_3, "Heck Rechts 1");
-JSN_SR04 jsn_B_L1(TRIG_PIN, ECHO_PIN_4, "Heck Links 1");
-JSN_SR04 jsn_B_R2(TRIG_PIN, ECHO_PIN_5, "Heck Rechts 2");
-JSN_SR04 jsn_B_L2(TRIG_PIN, ECHO_PIN_6, "Heck Links 2");
+    led.begin();
+    // buzzer.uploadTone();
 
-
-bool autoGestartet = false;
-
-
-float minHeckDistanz() {
-  float d1 = jsn_B_R1.measure();
-  float d2 = jsn_B_L1.measure();
-  float d3 = jsn_B_R2.measure();
-  float d4 = jsn_B_L2.measure();
-
-  float minDist = d1;
-  if (d2 < minDist) minDist = d2;
-  if (d3 < minDist) minDist = d3;
-  if (d4 < minDist) minDist = d4;
-  return minDist;
+    Serial0.println("0=AUS");
+    Serial0.println("1=FAHREN");
+    Serial0.println("2=RUECKWAERTS");
+    Serial0.println("3=ENTSPERREN");
+    Serial0.println("4=AMBIENTE");
+    Serial0.println("5=BLINKER_LINKS");
+    Serial0.println("6=BLINKER_RECHTS");
+    Serial0.println("7=WARNBLINKEINRICHTUNG");
 }
 
-void setup() {
-  Serial.begin(115200);
-  Serial.println("=== BMW i8 Kinderauto – Systemstart ===");
+void loop()
+{
+    if (Serial0.available())
+    {
+        int modus = Serial0.parseInt();
 
+        switch (modus)
+        {
+        case 0:
+            Serial0.println("MODUS_AUS");
+            led.setModus(MODUS_AUS);
+            break;
 
-  motor1.begin();
-  motor2.begin();
+        case 1:
+            Serial0.println("MODUS_FAHREN");
+            led.setModus(MODUS_FAHREN);
+            break;
 
-  TabletIR.begin();
+        case 2:
+            Serial0.println("MODUS_RUECKWAERTS");
+            led.setModus(MODUS_RUECKWAERTS);
+            break;
 
-  jsn_S_R.begin();
-  jsn_S_L.begin();
-  jsn_B_R1.begin();
-  jsn_B_L1.begin();
-  jsn_B_R2.begin();
-  jsn_B_L2.begin();
+        case 3:
+            Serial0.println("MODUS_ENTSPERREN");
+            led.setModus(MODUS_ENTSPERREN);
+            break;
 
-  pinMode(G_VOR,  INPUT_PULLDOWN);
-  pinMode(G_RUEK, INPUT_PULLDOWN);
+        case 4:
+            Serial0.println("MODUS_AMBIENTE");
+            led.setModus(MODUS_AMBIENTE);
+            break;
 
-  buzzer.playUnlockTone();
+        case 5:
+            Serial0.println("MODUS_BLINKER_LINKS");
+            led.setModus(MODUS_BLINKER_LINKS);
+            break;
 
-  Serial.println("System bereit – warte auf IR-Entsperrung...");
-}
+        case 6:
+            Serial0.println("MODUS_BLINKER_RECHTS");
+            led.setModus(MODUS_BLINKER_RECHTS);
+            break;
+        case 7:
+            Serial0.println("MODUS_WARN");
+            led.setModus(MODUS_WARN);
+            break;
 
-void loop() {
-
-  uint32_t irCode = TabletIR.receive();
-
-  if (irCode == IR_ENTSPERREN) {
-    if (!autoGestartet) {
-      autoGestartet = true;
-      buzzer.playUnlockTone();        
-      Serial.println("Auto entsperrt!");
-
+        default:
+            Serial0.println("Ungueltiger Modus");
+            break;
+        }
     }
-  }
 
-  if (!autoGestartet) return;
-
-  float distHeck = minHeckDistanz();
-
-  Serial.print("Heck-Distanz min: ");
-  Serial.print(distHeck);
-  Serial.println(" cm");
-
-  bool ganVor  = digitalRead(G_VOR)  == HIGH;
-  bool ganRuek = digitalRead(G_RUEK) == HIGH;
-
-  if (ganVor && !ganRuek) {
-    motor1.forward(SPEED_VOR);
-    motor2.forward(SPEED_VOR);
-    Serial.println("Fahre: VORWÄRTS");
-
-
-  } else if (ganRuek && !ganVor) {
-    motor1.backward(SPEED_RUEK);
-    motor2.backward(SPEED_RUEK);
-    Serial.println("Fahre: RÜCKWÄRTS");
-
-    buzzer.playReverseTone(distHeck);
-
-
-  } else {
-    motor1.neutral();
-    motor2.neutral();
-    Serial.println("Status: NEUTRAL");
-
-  }
-
-  delay(50);
+    led.update();
 }

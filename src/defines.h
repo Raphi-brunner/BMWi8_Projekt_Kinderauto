@@ -30,8 +30,8 @@
 #define BHI2 41
 #define BLI2 42
 
-// Motor-Disable Pin
-#define DIS 45
+// Motor-Disable Pin ?
+#define DISABLE 46
 
 // Gangschaltungsen Pins INPUT
 #define G_VOR 21
@@ -61,6 +61,7 @@
 #define MODUS_BLINKER_RECHTS    4  
 #define MODUS_ENTSPERREN        5  
 #define MODUS_AMBIENTE          6  
+#define MODUS_WARN              7
 
 //  Timing
 #define BLINK_MS        400
