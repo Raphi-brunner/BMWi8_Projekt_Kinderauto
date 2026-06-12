@@ -1,14 +1,14 @@
 #include <Arduino.h>
 #include "defines.h"
-#include "Motorsteuerung.h"
-#include "JSN_SR04.h"
-#include "IRHandler.h"
-#include "Buzzer.h"
-#include "BME280.h"
 #include "LED.h"
+#include "Buzzer.h"
 
 LED led;
 Buzzer buzzer(BUZZER);
+
+// Variables für Buzzer-Timing
+int letzterModus = -1;
+unsigned long letztesPiepen = 0;
 
 void setup()
 {
@@ -16,69 +16,76 @@ void setup()
     Serial0.println("=== BMW i8 Kinderauto – Systemstart ===");
 
     led.begin();
-    // buzzer.uploadTone();
+    
+    // Ganghebel Pins als INPUT_PULLDOWN (prüfen ob Hardware auf 3V3 gezogen wird)
+    pinMode(G_VOR, INPUT_PULLDOWN);
+    pinMode(G_RUEK, INPUT_PULLDOWN);
 
     Serial0.println("0=AUS");
     Serial0.println("1=FAHREN");
     Serial0.println("2=RUECKWAERTS");
-    Serial0.println("3=ENTSPERREN");
-    Serial0.println("4=AMBIENTE");
-    Serial0.println("5=BLINKER_LINKS");
-    Serial0.println("6=BLINKER_RECHTS");
-    Serial0.println("7=WARNBLINKEINRICHTUNG");
 }
 
 void loop()
 {
-    if (Serial0.available())
+    int modus = MODUS_AMBIENTE; // Default
+
+    if (digitalRead(G_VOR) == HIGH)
     {
-        int modus = Serial0.parseInt();
+        modus = MODUS_FAHREN;
+    }
+    else if (digitalRead(G_RUEK) == HIGH)
+    {
+        modus = MODUS_RUECKWAERTS;
+    }
+    else if (Serial0.available())
+    {
+        modus = Serial0.parseInt();
+    }
 
-        switch (modus)
+    switch (modus)
+    {
+    case MODUS_AUS:
+        Serial0.println("MODUS_AUS");
+        led.setModus(MODUS_AUS);
+        break;
+    case MODUS_FAHREN:
+        Serial0.println("MODUS_FAHREN");
+        led.setModus(MODUS_FAHREN);
+        break;
+    case MODUS_RUECKWAERTS:
+        Serial0.println("MODUS_RUECKWAERTS");
+        led.setModus(MODUS_RUECKWAERTS);
+        // Piepen alle 2 Sekunden im Rückwärts-Modus
+        if (millis() - letztesPiepen >= 1000)
         {
-        case 0:
-            Serial0.println("MODUS_AUS");
-            led.setModus(MODUS_AUS);
-            break;
-
-        case 1:
-            Serial0.println("MODUS_FAHREN");
-            led.setModus(MODUS_FAHREN);
-            break;
-
-        case 2:
-            Serial0.println("MODUS_RUECKWAERTS");
-            led.setModus(MODUS_RUECKWAERTS);
-            break;
-
-        case 3:
-            Serial0.println("MODUS_ENTSPERREN");
-            led.setModus(MODUS_ENTSPERREN);
-            break;
-
-        case 4:
-            Serial0.println("MODUS_AMBIENTE");
-            led.setModus(MODUS_AMBIENTE);
-            break;
-
-        case 5:
-            Serial0.println("MODUS_BLINKER_LINKS");
-            led.setModus(MODUS_BLINKER_LINKS);
-            break;
-
-        case 6:
-            Serial0.println("MODUS_BLINKER_RECHTS");
-            led.setModus(MODUS_BLINKER_RECHTS);
-            break;
-        case 7:
-            Serial0.println("MODUS_WARN");
-            led.setModus(MODUS_WARN);
-            break;
-
-        default:
-            Serial0.println("Ungueltiger Modus");
-            break;
+            buzzer.playReverseTone();
+            letztesPiepen = millis();
         }
+        break;
+    case MODUS_ENTSPERREN:
+        Serial0.println("MODUS_ENTSPERREN");
+        led.setModus(MODUS_ENTSPERREN);
+        break;
+    case MODUS_AMBIENTE:
+        Serial0.println("MODUS_AMBIENTE");
+        led.setModus(MODUS_AMBIENTE);
+        break;
+    case MODUS_BLINKER_LINKS:
+        Serial0.println("MODUS_BLINKER_LINKS");
+        led.setModus(MODUS_BLINKER_LINKS);
+        break;
+    case MODUS_BLINKER_RECHTS:
+        Serial0.println("MODUS_BLINKER_RECHTS");
+        led.setModus(MODUS_BLINKER_RECHTS);
+        break;
+    case MODUS_WARN:
+        Serial0.println("MODUS_WARN");
+        led.setModus(MODUS_WARN);
+        break;
+    default:
+        Serial0.println("Ungueltiger Modus");
+        break;
     }
 
     led.update();

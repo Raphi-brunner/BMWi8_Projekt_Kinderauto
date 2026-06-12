@@ -34,8 +34,8 @@
 #define DISABLE 46
 
 // Gangschaltungsen Pins INPUT
-#define G_VOR 21
-#define G_RUEK 47
+#define G_VOR 47
+#define G_RUEK 21
  
 //LED Pin, Anzahl und Helligkeit
 #define LED_PIN      48   

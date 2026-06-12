@@ -36,7 +36,6 @@ void LED::setModus(uint8_t modus)
         _allesAus();
         _bereichFarbe(FRONT_START, FRONT_END, CRGB(255, 255, 220));
         _bereichFarbe(HECK_START, HECK_END, CRGB(0, 255, 0));
-        _bereichFarbe(MITTE_START, MITTE_END, CRGB(0, 20, 80));
         _chBright(HECK_START, HECK_END, 0);
         FastLED.show();
         break;
